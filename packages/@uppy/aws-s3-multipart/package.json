@@ -23,8 +23,8 @@
     "url": "git+https://github.com/transloadit/uppy.git"
   },
   "dependencies": {
-    "@uppy/companion-client": "file:../companion-client",
-    "@uppy/utils": "file:../utils"
+    "@uppy/companion-client": "^2.0.4",
+    "@uppy/utils": "^4.0.4"
   },
   "peerDependencies": {
     "@uppy/core": "^1.0.0"
