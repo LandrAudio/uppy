@@ -41,7 +41,7 @@ const packages = [
   '@uppy/core',
   // Plugins -- please keep these sorted alphabetically
   '@uppy/aws-s3',
-  '@uppy/aws-s3-multipart',
+  '@landr/uppy-aws-s3-multipart',
   '@uppy/dashboard',
   '@uppy/drag-drop',
   '@uppy/dropbox',

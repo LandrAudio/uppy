@@ -38,7 +38,7 @@ exports.ScreenCapture = require('@uppy/screen-capture')
 
 // Uploaders
 exports.AwsS3 = require('@uppy/aws-s3')
-exports.AwsS3Multipart = require('@uppy/aws-s3-multipart')
+exports.AwsS3Multipart = require('@landr/uppy-aws-s3-multipart')
 exports.Transloadit = require('@uppy/transloadit')
 exports.Tus = require('@uppy/tus')
 exports.XHRUpload = require('@uppy/xhr-upload')

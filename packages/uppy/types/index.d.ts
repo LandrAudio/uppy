@@ -47,7 +47,7 @@ export { ScreenCapture };
 // Uploaders
 import AwsS3 = require('@uppy/aws-s3');
 export { AwsS3 };
-import AwsS3Multipart = require('@uppy/aws-s3-multipart');
+import AwsS3Multipart = require('@landr/uppy-aws-s3-multipart');
 export { AwsS3Multipart };
 import Transloadit = require('@uppy/transloadit');
 export { Transloadit };
