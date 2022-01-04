@@ -197,7 +197,7 @@ class MultipartUploader {
       if (err.source && typeof err.source.status === 'number') {
         const { status } = err.source
         // 0 probably indicates network failure
-        return status === 0 || status === 409 || status === 423 || (status >= 500 && status < 600)
+        return status === 0 || status === 409 || status === 403 || status === 423 || status >= 500 && status < 600
       }
       return false
     }
